@@ -1,0 +1,43 @@
+
+  
+  .switcher {
+    position: relative;
+
+  }
+  
+  .toggle-input {
+    display: none;
+  }
+  
+  .toggle-label {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(130, 189, 231);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-input:checked + .toggle-label {
+    background-color: #f279e4;
+  }
+  
+  .toggle-label::before {
+    content: '';
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: left 0.3s;
+  }
+  
+  .toggle-input:checked + .toggle-label::before {
+    left: 32px;
+  }
+
+  

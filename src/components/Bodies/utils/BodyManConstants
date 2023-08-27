@@ -1,0 +1,9 @@
+export const MAN_FRONT_16 = {file: "man-front-16", text:""}
+export const IMAGE_PATH = "./images/";
+export const EXT = ".png";
+
+const bodyMap =[
+{"man-front-16": "Forearms"}
+]
+
+export default bodyMap
